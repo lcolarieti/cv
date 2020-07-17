@@ -1,0 +1,145 @@
+{
+  "user": {
+    "name": "Lorenzo Colarieti",
+    "role": "Front-End Developer",
+    "email": "lorenzo.colarieti@gmail.com",
+    "birth": "22/05/1985",
+    "city": "Milano",
+    "country": "Italia",
+    "phone": "+39 349 427 252 0",
+    "picture": "./images/profile-picture.jpg",
+    "links": [
+      {
+        "label": "Il mio GitHub",
+        "url": "https://github.com/lcolarieti/"
+      }
+    ]
+  },
+
+  "sidebar": [
+    {
+      "title": "Studi",
+      "content": [
+        "Diploma di perito informatico (ITIS Feltrinelli)",
+        "Facoltà di ingegneria informatica (Politecnico di Milano) 1 anno",
+        "Attestato di programmazione web"
+      ]
+    },
+    {
+      "title": "Competenze personali",
+      "content": [
+        "Madrelingua italiano, conoscenza base/intermedia della lingua inglese.",
+        "Ottime capacità di lavorare in team, di analisi e di problem solving."
+      ]
+    }
+  ],
+
+  "main": {
+    "title": "Esperienze professionali",
+    "list": [
+      {
+        "company": "BooleServer s.r.l.",
+        "logo": "./images/boolebox.png",
+        "role": "Front-end Developer",
+        "start": "Aprile 2018",
+        "end": "Presente",
+        "tasks": [
+          "Manutenzione della piattaforma cloud",
+          "Introduzione di nuove funzionalità con relativa creazione dell'interfaccia grafica e delle funzioni js necessarie",
+          "Sviluppo di integrazioni con altre piattaforme cloud"
+        ],
+        "description": [
+          "Piattaforma cloud in continua evoluzione, all'interno della quale vengono introdotte nuove funzionalità che richiedono di essere \"vestite\" graficamente e di interfacciarsi con i servizi remoti."
+        ]
+      },
+
+      {
+        "company": "M&C Saatchi",
+        "logo": "./images/saatchi.png",
+        "role": "Front-end Developer",
+        "start": "Settembre 2017",
+        "end": "Aprile 2018",
+        "tasks": [
+          "Restyle del sito Sky.it",
+          "Generazione di nuovi template e di landing page legate ad attività speciali"
+        ],
+        "description": [
+          "Creati una serie di template con relative logiche di funzionamento lato JS per il sito di sky.it.",
+          "Utilizzo di task runner e package manager a supporto del progetto"
+        ]
+      },
+
+      {
+        "company": "DOING",
+        "logo": "./images/doing.png",
+        "role": "Front-end Developer",
+        "start": "Maggio 2015",
+        "end": "Settembre 2017",
+        "tasks": [
+          "Creazione del portale ENI.com",
+          "Creazione della sezione Eni in the world",
+          "Creazione della sezione Saipem nel mondo",
+          "Manutenzione dei portali SNAM"
+        ],
+        "description": "Progettazione e realizzazione del portale ENI e di una sottosezione dedicata alle attività di Eni nel mondo. Dopo il go live, continua manutenzione e sviluppo di nuovi template."
+      },
+
+      {
+        "company": "Hagakure",
+        "logo": "./images/hagakure.png",
+        "role": "Web Developer",
+        "start": "Ottobre 2012",
+        "end": "Maggio 2015",
+        "tasks": [
+          "Creazione di applicazioni Facebook",
+          "Landing page legate ad attività temporanee e contest",
+          "DEM"
+        ],
+        "description": "Integrazione con API social (Facebook, Twitter, Instagram)"
+      },
+
+      {
+        "company": "Sinapsi",
+        "logo": "./images/sinapsi.png",
+        "role": "Back-End/Web Developer",
+        "start": "Gennaio 2010",
+        "end": "Ottobre 2012",
+        "tasks": [
+          "Applicazioni social",
+          "Implementazione di nuove funzionalità e relativi test per Banca Popolare di Sondrio"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  "skills": [
+    "HTML",
+    "HTML5",
+    "Javascript",
+    "jQuery",
+    "React.js",
+    "Redux",
+    "Node",
+    "CSS",
+    "CSS3",
+    "PHP",
+    "CMS",
+    "REST API",
+    "Web API",
+    "Social API",
+    "Bootstrap",
+    "Foundation",
+    "SASS",
+    "Less",
+    "Grunt",
+    "Gulp",
+    "Webpack",
+    "Bower",
+    "NPM",
+    "Git",
+    "Subversion",
+    "LAMP",
+    "XML",
+    "Json"
+  ]
+}

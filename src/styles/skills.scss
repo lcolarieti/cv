@@ -1,0 +1,40 @@
+
+.skills {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #cccccc;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 15px;
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      span {
+        background-color: #40ABDD;
+        color: #ffffff;
+        display: inline-block;
+        padding: 3px 6px;
+        line-height: 16px;
+        vertical-align: top;
+        border-radius: 11px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+      }
+    }
+  }
+}

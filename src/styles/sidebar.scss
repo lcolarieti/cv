@@ -1,0 +1,31 @@
+
+.sidebar {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #cccccc;
+
+  div {
+    margin-bottom: 30px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    p {
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      border-bottom: 1px dotted #cccccc;
+
+      &:last-of-type {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+    }
+  }
+}

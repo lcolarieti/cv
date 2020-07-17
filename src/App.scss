@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
+
+$mobile-breakpoint: 1023px;
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  color: #222222;
+  font-size: 16px;
+  line-height: 20px;
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: block;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+@import './styles/mixin';
+@import './styles/shared';
+@import './styles/user';
+@import './styles/sidebar';
+@import './styles/main';
+@import './styles/skills';
+
